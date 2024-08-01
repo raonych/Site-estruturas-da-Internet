@@ -3,6 +3,8 @@
 }
 nav{
     border-bottom: solid #e2f5fa;
+    padding-left: 15px; /* Adiciona um padding à esquerda */
+    padding-right: 15px; /* Adiciona um padding à direita */
 }
 .col{
     margin: 5px;
@@ -40,11 +42,31 @@ span{
     color: tomato;
 }
 
-
 .nav-link:hover{
     border-bottom: solid tomato;
     padding-bottom: 5px;
 }
 .navbar-brand{
     color: tomato;
+    margin-left: 100px;
 }
+
+.dropdown-menu{
+    right: 0;
+    left: auto;
+    margin-right: 15px;
+}
+
+.navbar-nav{
+    margin-right: 100px;
+}
+
+.navbar-nav.ms-auto {
+    margin-left: auto;
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
